@@ -1,5 +1,4 @@
 ##URL: https://github.com/garciarb/ProgrammingAssignment2
-##SHA-1 hash identifier: 13e738652507c4355d4de4e5900c9e8aaf2358e1
 
 ## The makeCacheMatrix function creates a special "matrix",
 ## which is really a list containing a function to:
@@ -8,6 +7,7 @@
 ## 3. set the value of the inverse of the matrix
 ## 4. get the value of the inverse of the matrix
 
+#makeCacheMatrix
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
@@ -30,6 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##If it was not solved, it calculates the inverse of the matrix and sets 
 ##the value through the usage of the setinverse function.
 
+#cacheSolve
 cacheSolve <- function(x, ...) {
     i <- x$getinverse()
     if(!is.null(i)) {
