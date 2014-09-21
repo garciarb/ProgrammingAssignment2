@@ -1,6 +1,5 @@
-## https://github.com/xiangxing98/ProgrammingAssignment2.git
-## 1st commit SHA-1 hash identifier: b05b5096e135ae3ae46020952cc914cbce168841
-## R Programming Assignment 2: Lexical Scoping--caching the inverse of a matrix
+##URL: https://github.com/garciarb/ProgrammingAssignment2
+##SHA-1 hash identifier: 13e738652507c4355d4de4e5900c9e8aaf2358e1
 
 ## The makeCacheMatrix function creates a special "matrix",
 ## which is really a list containing a function to:
